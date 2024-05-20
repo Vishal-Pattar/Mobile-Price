@@ -40,7 +40,6 @@ for index, row in column_df.iterrows():
         user_input = st.sidebar.number_input(col_name, min_value=int(min_val), max_value=int(max_val), value=int(min_val), step=1, format='%d')
     user_inputs.append(user_input)
 
-print("User inputs => ", user_inputs)
 # Make prediction
 prediction = model.predict([user_inputs])[0]
 
