@@ -16,6 +16,9 @@ git clone https://github.com/Vishal-Pattar/Mobile-Price.git
 pip install -r requirements.txt
 ```
 
+## Live Demo  
+Check out the live demo [here](https://mobile-price-cd47y7dglzkevvcghmerjw.streamlit.app/)
+
 ## Usage
 
 1. Run the Streamlit app:
